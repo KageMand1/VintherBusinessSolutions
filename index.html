@@ -25,7 +25,11 @@
         <h2>Om os</h2>
         <p>Velkommen til Vinther Business Solutions, hvor vi tilbyder skræddersyede løsninger til små virksomheder. Vores mål er at hjælpe dig med at navigere i markedet og finde succes gennem dybdegående analyser og indsigt.</p>
     </section>
-
+  <!-- Hero Image -->
+    <section id="hero">
+        <img src="Hero-Image.jpg" alt="Virksomhedens mission billede" class="hero-image">
+        <h2>Velkommen til professionel rådgivning for små virksomheder</h2>
+    </section>
     <!-- Services Section -->
     <section id="services">
         <h2>Vores Services</h2>
@@ -66,4 +70,16 @@
         <p>&copy; 2024 Vinther Business Solutions. Alle rettigheder forbeholdes.</p>
     </footer>
 </body>
+<form action="send_email.php" method="POST">
+    <label for="name">Navn:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Besked:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send Besked</button>
+</form>
 </html>
