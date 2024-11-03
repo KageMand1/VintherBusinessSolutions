@@ -52,16 +52,16 @@
     <section id="contact">
         <h2>Kontakt</h2>
         <p>Kontakt os i dag for at høre mere om, hvordan vi kan hjælpe din virksomhed.</p>
-        <form action="submit_form.php" method="POST">
+        <form action="send_email.php" method="POST">
             <label for="name">Navn:</label>
             <input type="text" id="name" name="name" required>
-
+        
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-
+        
             <label for="message">Besked:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
-
+        
             <button type="submit">Send Besked</button>
         </form>
     </section>
@@ -71,16 +71,5 @@
         <p>&copy; 2024 Vinther Business Solutions. Alle rettigheder forbeholdes.</p>
     </footer>
 </body>
-<form action="send_email.php" method="POST">
-    <label for="name">Navn:</label>
-    <input type="text" id="name" name="name" required>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Besked:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <button type="submit">Send Besked</button>
-</form>
 </html>
