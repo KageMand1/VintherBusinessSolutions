@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinther Business Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Vinther Business Solutions</h1>
+        <p>Professionelle løsninger til små virksomheder</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Om os</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Om os</h2>
+        <p>Velkommen til Vinther Business Solutions, hvor vi tilbyder skræddersyede løsninger til små virksomheder. Vores mål er at hjælpe dig med at navigere i markedet og finde succes gennem dybdegående analyser og indsigt.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Vores Services</h2>
+        <div class="service">
+            <h3>Markedsanalyser</h3>
+            <p>Få indsigt i markedstendenser og kundeadfærd for at skabe en solid strategi.</p>
+        </div>
+        <div class="service">
+            <h3>Konkurrenceanalyser</h3>
+            <p>Forstå dine konkurrenter og identificer dine unikke styrker på markedet.</p>
+        </div>
+        <div class="service">
+            <h3>Andre Løsninger</h3>
+            <p>Vi tilbyder også skræddersyede løsninger tilpasset dine specifikke behov.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Kontakt os i dag for at høre mere om, hvordan vi kan hjælpe din virksomhed.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Besked:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Besked</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Vinther Business Solutions. Alle rettigheder forbeholdes.</p>
+    </footer>
+</body>
+</html>
