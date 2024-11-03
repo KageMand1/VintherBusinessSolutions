@@ -22,10 +22,10 @@ header {
 
 /* Hero Image */
 .hero-image {
-    width: 100%;
+    width: 35%;
     height: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 header h1 {
