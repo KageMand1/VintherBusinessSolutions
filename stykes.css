@@ -24,8 +24,7 @@ header {
 .hero-image {
     width: 35%;
     height: auto;
-    display: block;
-    margin-bottom: 15px;
+  
 }
 
 header h1 {
